@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+
+
+    <title>POOPS CHUB'S CAFE</title>
+
+
+</head>
+
+<body>
+    //nav bar of the page
+    <nav id="mainNavBar" class="navbar navbar-dark navbar-expand-lg fixed-top py-4" style="background-color: #915822;">
+        <!--coffee brand-->
+        <a href="index.html" class="navbar-brand ps-4">
+            <i class="bi bi-cup-hot-fill"></i> MEOW MEOW CAFE
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navlinks"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navlinks">
+            <ul class="nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html"><i class="fa-solid fa-snowflake"></i>&nbsp;HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recipies.html"><i class="fa-solid fa-scroll"></i>&nbsp;RECIPIES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="staff.html"><i class="fa-solid fa-cat"></i>&nbsp;STAFF</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><i class="fa-solid fa-user"></i>&nbsp;CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="containerWhole">
+<!--carrousel of featured items-->
+<div class="row justify-content-center" data-bs-theme="dark">
+    <div class="carousel-container">
+        <h3><i class="bi bi-stars"></i>&nbsp;SPECIALS &nbsp;<i class="bi bi-stars"></i></h3>
+    </div>
+    <div id="carouselExampleControls" class="carousel slide custom-carousel col-4" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card" >
+                        <img src="imagesUsed/cat1.jpeg" class="card-img-top" >
+                    <div class="card-body">
+                        <h5 class="card-title">VANILLA LATTE</h5>
+                        <p class="card-text">A creamy and smooth blend of steamed milk and rich espresso, delicately infused with the warm, sweet aroma of vanilla..</p>
+                        <a href="recipies.html" class="btn btn-light">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card" >
+                    <img src=imagesUsed/oj.jpeg class="card-img-top" >
+                    <div class="card-body">
+                        <h5 class="card-title">ORANGE JUICE</h5>
+                        <p class="card-text">A glass of pure sunshine, freshly squeezed with the bright, tangy sweetness of ripe oranges.</p>
+                        <a href="recipies.html" class="btn btn-light">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card" >
+                    <img src=imagesUsed/croissant1.jpeg class="card-img-top" >
+                    <div class="card-body">
+                        <h5 class="card-title">BLUEBERRY- STRAWBERRY CROSSIANT</h5>
+                        <p class="card-text">Every bite offers the perfect mix of buttery croissant and the fruity sweetness of strawberries and blueberries.</p>
+                        <a href="recipies.html" class="btn btn-light">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card" >
+                    <img src=imagesUsed/strawberrySmoothieCat.jpeg class="card-img-top" >
+                    <div class="card-body">
+                        <h5 class="card-title">STRAWBERRY SMOOTHIE</h5>
+                        <p class="card-text">The essence of fresh straeberries captured in a perfectly chilled, creamy smoothie.</p>
+                        <a href="recipies.html" class="btn btn-light">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card" >
+                    <img src=imagesUsed/chocolatechipMuffin.jpeg class="card-img-top" >
+                    <div class="card-body">
+                        <h5 class="card-title">CHOCOATE MUFFINS</h5>
+                        <p class="card-text">Every bite is a burst of chocolatey bliss, perfect for satisfying your sweet tooth.</p>
+                        <a href="recipies.html" class="btn btn-light">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card" >
+                    <img src=imagesUsed/frenchToast.jpeg class="card-img-top" >
+                    <div class="card-body">
+                        <h5 class="card-title">FRENCH TOAST</h5>
+                        <p class="card-text">A breakfast classic, with a soft, custardy center and a hint of cinnamon and vanilla.</p>
+                        <a href="recipies.html" class="btn btn-light">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<br><br><br>
+<section class="meet-cats">
+    <div class="container text-center">
+        <br><br>
+        <h2>REVIEWS!</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="imagesUsed/fluffly.jpeg" alt="Cat 1" class="img-fluid rounded-circle">
+                <h4>Fluffy</h4>
+                <i class="bi bi-star-fill text-primary"></i>
+                <i class="bi bi-star-fill text-primary"></i>
+                <i class="bi bi-star-fill text-primary"></i>
+                <i class="bi bi-star-fill text-primary"></i>
+                <i class="bi bi-star-fill text-primary"></i>
+                <p>This cafe feels like my home away from home. The food, drinks, and cozy atmostphere are unmatched!</p>
+            </div>
+            <div class="col-md-4">
+                <img src="imagesUsed/whiskers.jpeg" alt="Cat 2" class="img-fluid rounded-circle">
+                <h4>Whiskers</h4>
+                <i class="bi bi-star-fill text-primary"></i>
+                <i class="bi bi-star-fill text-primary"></i>
+                <i class="bi bi-star-fill text-primary"></i>
+                <i class="bi bi-star-fill text-primary"></i>
+                <i class="bi bi-star-half text-primary"></i>
+                <p>Meow meeeow meooow!</p>
+            </div>
+            <div class="col-md-4">
+                <img src="imagesUsed/shadow.jpeg" alt="Cat 3" class="img-fluid rounded-circle">
+                <h4>Shadow</h4>
+                <i class="bi bi-star-fill text-primary"></i>
+                <i class="bi bi-star-fill text-primary"></i>
+                <i class="bi bi-star-fill text-primary"></i>
+                <i class="bi bi-star-fill text-primary"></i>
+                <i class="bi bi-star-fill text-primary"></i>
+                <p>I love coming here for a relaxing morning. Great coffee, amazing pastries, and a vibe that's hard to beat!!</p>
+            </div>
+        </div>
+    </div>
+</section>
+    </div>
+    
+    
+
+
+    <br>
+    <!--footer-->
+    <footer>
+        <div class="footer-content">
+            <h3>MEOW MEOW MEOW!</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quidem, qui, expedita totam vitae deleniti similique libero dolore commodi quis cupiditate ad suscipit vero enim iure eaque quam, sapiente beatae eos ratione quibusdam. Incidunt possimus veniam molestiae expedita nam quam!</p>
+            <ul class="socials">
+                <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                <li><a href=""><i class="bi bi-discord"></i></a></li>
+                <li><a href=""><i class="bi bi-linkedin"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href=""><i class="bi bi-pinterest"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/382e077267.js" crossorigin="anonymous"></script>
+    <script src="coolThings.js"></script>
+</body>
+
+</html>
